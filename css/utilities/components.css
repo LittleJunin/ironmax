@@ -6,7 +6,8 @@
 }
 
 .botao:hover {
-  background: linear-gradient(to right, #6e0000, #920000);
+  background: linear-gradient(to right, #ff0000, #4d0000);
+  transition: 1s;
 }
 
 .button {
@@ -19,7 +20,7 @@
 }
 
 .button:hover {
-  background: linear-gradient(to right, #6e0000, #920000);
+  background: linear-gradient(to right, #ff0000, #4d0000);
   color: var(--cor-0);
   transition: 0.3s;
 }
