@@ -8,14 +8,14 @@
 
 /* Home */
 @import url(./home/introduction.css);
-@import url(./home/hours.css);
+@import url(./home/about.css);
 
 /* Plan */
 @import url(./plan/plan.css);
 @import url(./plan/academy-plans.css);
 
 /* Slider */
-@import url(./slider/slider.css);
+@import url(./video/video.css);
 
 /* Utilities */
 @import url(./utilities/colors.css);

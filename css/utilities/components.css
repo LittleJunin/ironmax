@@ -3,6 +3,7 @@
   border-radius: 4px;
   background: linear-gradient(to right, #6e0000, #920000);
   color: var(--cor-0);
+  transition: 1s;
 }
 
 .botao:hover {

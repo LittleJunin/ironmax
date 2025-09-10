@@ -1,0 +1,51 @@
+.ironmax-bg {
+  background-color: var(--cor-3);
+  padding-top: 100px;
+  padding-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ironmax {
+  text-align: center;
+}
+
+.ironmax h1 {
+  font-size: 3.5rem;
+  line-height: 50px;
+  color: var(--cor-0);
+}
+
+.ironmax p {
+  padding-top: 40px;
+  font-size: 1rem;
+  text-align: center;
+  color: var(--cor-4);
+}
+
+.ironmax span {
+  background-image: linear-gradient(to right, #ff2121, #5c0000);
+  background-clip: text;
+  color: transparent;
+}
+
+.ironmax-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 60px;
+}
+
+.ironmax-video video {
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+.ironmax-video video:hover {
+  box-shadow: 0 0 10px rgb(255, 0, 0);
+}

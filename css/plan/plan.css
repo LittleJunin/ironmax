@@ -123,7 +123,6 @@
 
 .plan-avulso:hover {
   transform: scale(1.1); /* Aumenta a imagem em 20% ao passar o mouse */
-  transition: 0.5s;
   box-shadow: 0 0 40px #5c0000;
 }
 

@@ -1,0 +1,77 @@
+.about-bg {
+  background-color: var(--cor-3);
+  color: var(--cor-0);
+  padding-top: 200px;
+  padding-bottom: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.about-10 {
+  text-align: center;
+}
+
+.about-10 h2 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 70px;
+}
+
+.about-10 h2 > span {
+  background-image: linear-gradient(to right, #ff2121, #5c0000);
+  background-clip: text;
+  color: transparent; /* Um fallback pode ser útil */
+}
+
+.about-menu {
+  padding-top: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.about-menu p {
+  color: var(--cor-4);
+}
+
+.about-extra img {
+  background-image: linear-gradient(to right, #ff2121, #5c0000);
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.about-extra {
+  display: grid;
+  gap: 15px;
+  justify-items: center;
+  background: #0f0f0f;
+  border-radius: 10px;
+  padding: 40px 40px;
+  text-align: center;
+  border: 1px solid #262626;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+.about-extra:hover {
+  transform: scale(1.1); /* Aumenta a imagem em 20% ao passar o mouse */
+  box-shadow: 0 0 40px #5c0000;
+}
+
+@media (max-width: 800px) {
+  .about-10 h2 {
+    font-size: 2.5rem;
+  }
+  .about-10 p {
+    font-size: 0.9rem;
+  }
+  .about-menu {
+    grid-template-columns: 1fr;
+  }
+  .about-extra {
+    padding: 50px 100px;
+  }
+}
