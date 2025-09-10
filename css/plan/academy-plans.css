@@ -1,0 +1,161 @@
+.plano-bg {
+  background-color: var(--cor-3);
+  color: var(--cor-0);
+  padding-top: 130px;
+  padding-bottom: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.plano-container {
+  text-align: center;
+}
+
+.plano-container h1 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 70px;
+}
+
+.plano-container h1 > span {
+  background-image: linear-gradient(to right, #ff2121, #5c0000);
+  background-clip: text;
+  color: transparent; /* Um fallback pode ser útil */
+}
+
+.plano-menu {
+  padding-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.plano-menu img {
+  background-image: linear-gradient(to right, #ff2121, #5c0000);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.plano-mensal {
+  background: #0f0f0f;
+  border-radius: 10px;
+  padding: 60px 50px;
+  text-align: center;
+  border: 1px solid #262626;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+.plano-mensal:hover {
+  transform: scale(1.1); /* Aumenta a imagem em 20% ao passar o mouse */
+  transition: 0.5s;
+  box-shadow: 0 0 40px #5c0000;
+}
+
+.plano-anual {
+  background: #0f0f0f;
+  border-radius: 10px;
+  padding: 50px 50px;
+  text-align: center;
+  border: 1px solid #262626;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+.plano-anual:hover {
+  transform: scale(1.1); /* Aumenta a imagem em 20% ao passar o mouse */
+  box-shadow: 0 0 40px #5c0000;
+}
+
+.plano-anual span {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.plano-semestral {
+  background: #0f0f0f;
+  border-radius: 10px;
+  padding: 50px 50px;
+  text-align: center;
+  border: 1px solid #262626;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+.plano-semestral:hover {
+  transform: scale(1.1); /* Aumenta a imagem em 20% ao passar o mouse */
+  transition: 0.5s;
+  box-shadow: 0 0 40px #5c0000;
+}
+
+.plano-semestral span {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.plano-popu {
+  background: #0f0f0f;
+  border-radius: 10px;
+  padding: 50px 50px;
+  text-align: center;
+  border: 1px solid #262626;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+.plano-popu:hover {
+  transform: scale(1.1); /* Aumenta a imagem em 20% ao passar o mouse */
+  transition: 0.5s;
+  box-shadow: 0 0 40px #5c0000;
+}
+
+.plano-popu span {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.plano-avulso {
+  background: #0f0f0f;
+  border-radius: 10px;
+  padding: 50px 50px;
+  text-align: center;
+  border: 1px solid #262626;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+.plano-avulso:hover {
+  transform: scale(1.1); /* Aumenta a imagem em 20% ao passar o mouse */
+  box-shadow: 0 0 40px #5c0000;
+}
+
+.plano-menu h1 {
+  font-size: 2.5rem;
+}
+
+.plano-menu h2 {
+  background-image: linear-gradient(to right, #ff2121, #5c0000);
+  background-clip: text;
+  color: transparent; /* Um fallback pode ser útil */
+}
+
+@media (max-width: 1400px) {
+  .plano-menu {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .plano-container h1 {
+    font-size: 2.5rem;
+  }
+  .plano-container p {
+    font-size: 0.9rem;
+  }
+  .plano-menu {
+    grid-template-columns: 1fr;
+  }
+}

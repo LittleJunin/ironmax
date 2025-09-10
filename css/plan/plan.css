@@ -69,6 +69,11 @@
   opacity: 0.5;
 }
 
+img {
+  display: flex;
+  justify-self: center;
+}
+
 .plan-semestral {
   background: #0f0f0f;
   border-radius: 10px;
