@@ -108,8 +108,20 @@
   box-shadow: 0 0 40px #5c0000;
 }
 
-.plan-pg:hover {
-  box-shadow: 0 0 20px #5c0000;
-  transition: 1s;
-  box-shadow: 0 0 40px #5c0000;
+@media (max-width: 1400px) {
+  .plan-menu {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .plan-container h1 {
+    font-size: 2.5rem;
+  }
+  .plan-container p {
+    font-size: 0.9rem;
+  }
+  .plan-menu {
+    grid-template-columns: 1fr;
+  }
 }

@@ -22,13 +22,13 @@
 }
 
 .about-menu {
-  padding-top: 120px;
+  padding-top: 200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
-  justify-self: center;
-  padding-left: 150px;
-  padding-right: 150px;
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .about-menu p {
