@@ -23,6 +23,19 @@
   color: var(--cor-1);
 }
 
+blockquote {
+  display: flex;
+  flex-flow: row-reverse;
+}
+
+.dede {
+  transition: 0.3s;
+}
+
+.dede:hover {
+  color: red;
+}
+
 @media (max-width: 1400px) {
   .footer-container {
     grid-template-columns: 1fr 1fr;
