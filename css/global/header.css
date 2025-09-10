@@ -23,3 +23,9 @@
   color: var(--cor-1);
   transition: 0.3s;
 }
+
+@media (max-width: 800px) {
+  .header-menu {
+    display: none;
+  }
+}

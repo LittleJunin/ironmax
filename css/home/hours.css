@@ -56,3 +56,18 @@
   box-shadow: 0 0 20px #5c0000;
   transition: 1s;
 }
+
+@media (max-width: 800px) {
+  .about-10 h2 {
+    font-size: 2.5rem;
+  }
+  .about-10 p {
+    font-size: 0.9rem;
+  }
+  .about-menu {
+    grid-template-columns: 1fr;
+  }
+  .about-extra {
+    padding: 50px;
+  }
+}
