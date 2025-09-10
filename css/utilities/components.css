@@ -1,5 +1,5 @@
 .botao {
-  padding: 10px 15px;
+  padding: 12px 16px;
   border-radius: 4px;
   background: linear-gradient(to right, #6e0000, #920000);
   color: var(--cor-0);
@@ -22,4 +22,10 @@
   background: linear-gradient(to right, #6e0000, #920000);
   color: var(--cor-0);
   transition: 0.3s;
+}
+
+@media (max-width: 800px) {
+  .botao {
+    padding: 6px 12px;
+  }
 }
