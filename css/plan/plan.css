@@ -3,6 +3,8 @@
   color: var(--cor-0);
   padding-top: 300px;
   padding-bottom: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .plan-container {
@@ -32,13 +34,13 @@
 }
 
 .plan-mensal {
-  display: grid;
-  gap: 10px;
-  background: #f6d0d0;
-  color: #5e0808;
+  background: #0f0f0f;
   border-radius: 10px;
-  padding: 50px;
+  padding: 50px 50px;
   text-align: center;
+  border: 1px solid #262626;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
 }
 
 .plan-mensal:hover {
@@ -48,27 +50,33 @@
 }
 
 .plan-anual {
-  display: grid;
-  gap: 10px;
-  background: #a50000;
+  background: #0f0f0f;
   border-radius: 10px;
-  padding: 50px;
+  padding: 50px 50px;
   text-align: center;
+  border: 1px solid #262626;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
 }
 
 .plan-anual:hover {
   transform: scale(1.1); /* Aumenta a imagem em 20% ao passar o mouse */
-  transition: 0.5s;
   box-shadow: 0 0 40px #5c0000;
 }
 
+.plan-anual span {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
 .plan-semestral {
-  display: grid;
-  gap: 10px;
-  background: #a90000;
+  background: #0f0f0f;
   border-radius: 10px;
-  padding: 50px;
+  padding: 50px 50px;
   text-align: center;
+  border: 1px solid #262626;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
 }
 
 .plan-semestral:hover {
@@ -77,13 +85,19 @@
   box-shadow: 0 0 40px #5c0000;
 }
 
+.plan-semestral span {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
 .plan-popu {
-  display: grid;
-  gap: 10px;
-  background: #ec2828;
+  background: #0f0f0f;
   border-radius: 10px;
-  padding: 50px;
+  padding: 50px 50px;
   text-align: center;
+  border: 1px solid #262626;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
 }
 
 .plan-popu:hover {
@@ -92,20 +106,35 @@
   box-shadow: 0 0 40px #5c0000;
 }
 
+.plan-popu span {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
 .plan-avulso {
-  display: grid;
-  gap: 10px;
-  background: #f6d0d0;
-  color: #5e0808;
+  background: #0f0f0f;
   border-radius: 10px;
-  padding: 50px;
+  padding: 50px 50px;
   text-align: center;
+  border: 1px solid #262626;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
 }
 
 .plan-avulso:hover {
   transform: scale(1.1); /* Aumenta a imagem em 20% ao passar o mouse */
   transition: 0.5s;
   box-shadow: 0 0 40px #5c0000;
+}
+
+.plan-menu h1 {
+  font-size: 2.5rem;
+}
+
+.plan-menu h2 {
+  background-image: linear-gradient(to right, #ff2121, #5c0000);
+  background-clip: text;
+  color: transparent; /* Um fallback pode ser útil */
 }
 
 @media (max-width: 1400px) {

@@ -1,8 +1,10 @@
 .about-bg {
   background-color: var(--cor-3);
   color: var(--cor-0);
-  padding-top: 220px;
+  padding-top: 200px;
   padding-bottom: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .about-10 {
@@ -47,14 +49,15 @@
   justify-items: center;
   background: #0f0f0f;
   border-radius: 10px;
-  padding: 50px 50px;
+  padding: 40px 40px;
   text-align: center;
+  border: 1px solid #262626;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
 }
 
 .about-extra:hover {
   box-shadow: 0 0 20px #5c0000;
-  transition: 1s;
 }
 
 @media (max-width: 800px) {
@@ -68,6 +71,6 @@
     grid-template-columns: 1fr;
   }
   .about-extra {
-    padding: 50px;
+    padding: 50px 100px;
   }
 }
