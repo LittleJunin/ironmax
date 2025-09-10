@@ -1,0 +1,25 @@
+.header-bg {
+  padding: 30px 50px;
+  background: var(--cor-0);
+  /* background: linear-gradient(to right, #ff5349, #ff8036); */
+}
+
+.header-container img {
+  width: 100px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.header-menu a:hover {
+  color: var(--cor-1);
+  transition: 0.3s;
+}

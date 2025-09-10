@@ -1,0 +1,23 @@
+/* Global */
+@import url(./global/global.css);
+@import url(./global/header.css);
+@import url(./global/footer.css);
+
+/* Contact */
+@import url(./contact/contact.css);
+
+/* Home */
+@import url(./home/introduction.css);
+@import url(./home/hours.css);
+
+/* Plan */
+@import url(./plan/plan.css);
+@import url(./plan/academy-plans.css);
+
+/* Slider */
+@import url(./slider/slider.css);
+
+/* Utilities */
+@import url(./utilities/colors.css);
+@import url(./utilities/components.css);
+@import url(./utilities/print.css);

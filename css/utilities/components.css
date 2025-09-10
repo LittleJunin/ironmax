@@ -1,0 +1,25 @@
+.botao {
+  padding: 10px 15px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #6e0000, #920000);
+  color: var(--cor-0);
+}
+
+.botao:hover {
+  background: linear-gradient(to right, #6e0000, #920000);
+}
+
+.button {
+  border: 2px solid var(--cor-1);
+  border-radius: 4px;
+  padding: 10px 15px;
+  background: transparent;
+  font-weight: bold;
+  color: var(--cor-1);
+}
+
+.button:hover {
+  background: linear-gradient(to right, #6e0000, #920000);
+  color: var(--cor-0);
+  transition: 0.3s;
+}
